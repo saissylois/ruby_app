@@ -16,8 +16,12 @@ bin/parser.rb webserver.log
 Features --
 
 Basic Parsing of webserver.log
+
 Sorting of Pages based on view count
+
 Sorting of Pages based on unique view count
+
 Shows basic page analytics based on webserver.log
+
 
 

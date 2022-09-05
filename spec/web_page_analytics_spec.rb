@@ -4,7 +4,7 @@ require_relative '../web_page_analytics'
 RSpec.describe WebPageAnalytics do
 
   describe '.page_per_total_views' do
-    it 'returns list of webpages per total number of views order by views desc' do
+    it 'returns list of webpages per total number of view count order by views desc' do
 
       response = described_class.page_per_total_views("webserver.log")
 
@@ -13,7 +13,7 @@ RSpec.describe WebPageAnalytics do
   end
 
   describe '.page_per_unique_views' do
-    it 'returns list of webpages per unique number of views order by views desc' do
+    it 'returns list of webpages per unique number of view count order by views desc' do
 
       response = described_class.page_per_unique_views("webserver.log")
 
